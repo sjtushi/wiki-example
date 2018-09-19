@@ -1,0 +1,31 @@
+# 外部技术教程配置示例
+---
+# 技术教程名称应总是唯一的
+name: 外部技术教程
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: external-book
+topic: 技术主题
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - 第一个标签
+  - 第二个标签
+# 技术教程所在的 git 仓库地址，仓库地址不需要 ".git" 后缀
+repository: github.com/aiden0z/rmon
+# 技术教程所在的 git 仓库地址目录
+# 实验楼自有的技术教程将全部放到一个仓库中，此时需要指定教程章节内容所在的目录名称
+# 而外部技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 技术教程在页面展示时的排序码
+order_index: 10
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: aiden0z
+  email: luojin@simplecloud.cn
+  # github 主页地址
+  github: github.com/aiden0z
+  blog: blog.shiyanlou.com
+# 描述信息
+description: |
+  这是一段较长的教程描述信息，在 YAML 中可以通过 "|" 或者 ">" 来书写多行文本。具体参考
+  YAML 语法文档中的 "Block Styles" 章节。
