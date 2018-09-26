@@ -11,8 +11,8 @@ topic: 技术主题
 tags:
   - 第一个标签
   - 第二个标签
-# 技术教程所在的 git 仓库地址，仓库地址不需要 ".git" 后缀
-repository: github.com/sjtushi/wiki
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: sjtushi/wiki-example
 # 技术教程所在的 git 仓库地址目录
 # 实验楼自有的技术教程将全部放到一个仓库中，此时需要指定教程章节内容所在的目录名称
 # 而外部技术教程拥有自己的仓库，则填写 "/" 即可

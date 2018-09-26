@@ -1,6 +1,7 @@
 # [实验楼](https://www.shiyanlou.com)技术教程示例仓库
 
 所有配置文件统一使用 [YAML](http://yaml.org/spec/1.2/spec.html) 格式。
+所有文件 **必须** 使用 UTF-8 编码。
 
 ## 目录结构
 

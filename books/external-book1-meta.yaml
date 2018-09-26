@@ -9,8 +9,8 @@ topic: 技术主题
 tags:
   - 第一个标签
   - 第二个标签
-# 技术教程所在的 git 仓库地址，仓库地址不需要 ".git" 后缀
-repository: github.com/aiden0z/rmon
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: aiden0z/rmon
 # 技术教程所在的 git 仓库地址目录
 # 实验楼自有的技术教程将全部放到一个仓库中，此时需要指定教程章节内容所在的目录名称
 # 而外部技术教程拥有自己的仓库，则填写 "/" 即可
@@ -29,3 +29,7 @@ author:
 description: |
   这是一段较长的教程描述信息，在 YAML 中可以通过 "|" 或者 ">" 来书写多行文本。具体参考
   YAML 语法文档中的 "Block Styles" 章节。
+# 配置教程是否官方推荐教程
+official: false
+# 教程版本号
+version: 1.0
