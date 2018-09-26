@@ -27,13 +27,13 @@ blocks:
     # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
     # 教程按照配置的顺序进行展示，可以配置任意多个教程，
     books:
-      - book1
+      - 技术教程名称
       - book2
       - book3
       - book4
   - topic: 第二个技术方向
     books:
-      - book5
+      - 技术教程名称
       - book6
       - book7
       - book8

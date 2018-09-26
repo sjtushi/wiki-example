@@ -31,3 +31,4 @@ author:
 description: |
   这是一段较长的教程描述信息，在 YAML 中可以通过 "|" 或者 ">" 来书写多行文本。具体参考
   YAML 语法文档中的 "Block Styles" 章节。
+version: 1.0
